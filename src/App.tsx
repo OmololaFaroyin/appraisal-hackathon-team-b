@@ -1,9 +1,11 @@
-import './App.css';
-import Login from './pages/Login';
+import AppLayout from "./layouts/app_layout";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <Login />
+      <AppLayout>
+         <Home />
+      </AppLayout>
   );
 }
 
